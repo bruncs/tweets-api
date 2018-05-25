@@ -4,11 +4,17 @@ const requireDir = require('require-dir');
 const bodyParser = require('body-parser');
 
 const dbConfig = require('./config/database');
+const Raven = require('./app/services/sentry');
 
 mongoose.connect(dbConfig.url);
 requireDir(dbConfig.modelsPath);
 
 app.use(bodyParser.json());
+
+app.use(Raven.requestHandler());
+
 app.use('/api', require('./app/routes'));
+
+app.use(Raven.errorHandler());
 
 app.listen(3000);
