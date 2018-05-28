@@ -21,4 +21,7 @@ routes.get('/tweets', (req, res) => {
   res.send('You reached tweets.');
 });
 
+routes.post('/tweets', controllers.tweetController.create);
+routes.delete('/tweets:id', controllers.tweetController.destroy);
+
 module.exports = routes;
