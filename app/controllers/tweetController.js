@@ -15,6 +15,9 @@ module.exports = {
 
   async destroy(req, res, next) {
     try {
+      await Tweet.findByIdAndRemove(req.params.id);
+
+      return res.send();
     } catch (err) {
       return next(err);
     }
