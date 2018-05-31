@@ -30,6 +30,7 @@ routes.delete('/tweets/:id', controllers.tweetController.destroy);
 /**
  * Users
  */
+routes.get('/users/me', controllers.userController.me);
 routes.put('/users', controllers.userController.update);
 
 /**
