@@ -2,13 +2,13 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
 
 PATH: 
-  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bruno\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files (x86)\Python36-32\Scripts;C:\Program Files (x86)\Python36-32;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\SourceGear\Common\DiffMerge;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Amazon\AWSCLI\bin;C:\Program Files\PuTTY;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Users\bruno\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin;C:\Users\bruno\AppData\Local\GitHubDesktop\bin;C:\Users\bruno\AppData\Local\Yarn\bin;D:\Documentos\Projetos\Apps\Flutter\bin;C:\xampp\php;C:\Users\bruno\AppData\Roaming\Composer\vendor\bin;D:\Downloads\Softwares\Phing;C:\Users\bruno\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Amazon\AWSCLI;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\bruno\AppData\Local\hyper\app-2.0.0\resources\bin;C:\Users\bruno\AppData\Roaming\npm;C:\Users\bruno\AppData\Local\Microsoft\WindowsApps
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bruno\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files (x86)\Python36-32\Scripts;C:\Program Files (x86)\Python36-32;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\SourceGear\Common\DiffMerge;C:\Program Files (x86)\Yarn\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Amazon\AWSCLI\bin;C:\Program Files\PuTTY;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Users\bruno\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin;C:\Users\bruno\AppData\Local\GitHubDesktop\bin;C:\Users\bruno\AppData\Local\Yarn\bin;D:\Documentos\Projetos\Apps\Flutter\bin;C:\xampp\php;C:\Users\bruno\AppData\Roaming\Composer\vendor\bin;D:\Downloads\Softwares\Phing;C:\Users\bruno\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\Amazon\AWSCLI;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\bruno\AppData\Local\hyper\app-2.0.0\resources\bin;C:\Users\bruno\AppData\Local\Microsoft\WindowsApps;C:\Users\bruno\AppData\Roaming\npm
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  9.11.1
+  10.3.0
 
 Platform: 
   win32 x64
@@ -42,6 +42,7 @@ npm manifest:
     "dependencies": {
       "bcryptjs": "^2.4.3",
       "body-parser": "^1.18.3",
+      "dotenv": "^5.0.1",
       "express": "^4.16.3",
       "jsonwebtoken": "^8.2.1",
       "mongoose": "^5.1.2",
@@ -1388,6 +1389,6 @@ Trace:
       at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
       at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
       at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
-      at ChildProcess.emit (events.js:180:13)
-      at maybeClose (internal/child_process.js:936:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+      at ChildProcess.emit (events.js:182:13)
+      at maybeClose (internal/child_process.js:961:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
